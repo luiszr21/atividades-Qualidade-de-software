@@ -57,9 +57,8 @@ Utilizem:
 - **C:** consultado antes da execução ou decisão;
 - **I:** informado sobre o resultado.
 
-| Atividade de qualidade | QA | 
-|---|:---:|:---:|:---:|:---:|
-| Definir critérios de aceitação |  |  |  |  |
+| Atividade de qualidade | QA |
+|---|:---:|
 | Definir critérios de aceitação | **C** |
 | Revisar requisitos | **C** |
 | Implementar a funcionalidade | **I** |
@@ -69,7 +68,6 @@ Utilizem:
 | Registrar e acompanhar defeitos | **A / R** |
 | Priorizar a correção dos defeitos | **C** |
 | Aprovar a disponibilização da versão | **C** |
-### 4.1 Lacuna ou conflito encontrado
 
 **Lacuna ou conflito:**  
 Conflito de responsabilidade na aprovação da versão para produção, onde o QA apenas consulta  mas não tem poder de veto se o sistema estiver com bugs graves
