@@ -10,7 +10,8 @@ Repositório da equipe para as atividades da Unidade Curricular Qualidade de Sof
 
 ## Atividades
 
-- Atividades/atividade-01/
+- atividades/atividade-01/
+- atividades/atividade-02/
 
 ## Aplicação analisada
 
