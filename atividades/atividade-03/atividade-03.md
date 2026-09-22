@@ -85,7 +85,7 @@ Verificar se, após o cliente realizar um pedido na plataforma, este é exibido 
 **Técnica escolhida:** Tabela de decisão
 
 **Por que a técnica foi escolhida:**  
-A Tabela de Decisão foi escolhida porque a exibição da tela depende de decisões combinadas de autenticação e estado da conta: o sistema bloqueia qualquer acesso sem login ativo e, para usuários autenticados, decide entre exibir os detalhes do pedido recém-realizado ou a mensagem de ausência de compras.[cite: 1, 2]
+A Tabela de Decisão foi escolhida porque a exibição da tela depende de decisões combinadas de autenticação e estado da conta: o sistema bloqueia qualquer acesso sem login ativo e, para usuários autenticados, decide entre exibir os detalhes do pedido recém-realizado ou a mensagem de ausência de compras.
 
 **Aplicação da técnica:**  
 
@@ -120,7 +120,7 @@ Não se aplica.
 
 1. Acessar o LocalEats com a conta criada.
 2. Selecionar um restaurante, adicionar itens ao carrinho e concluir o pedido.
-3. Navegar para a tela de consulta de pedidos (`/static/orders.html`).
+3. Navegar para a tela de consulta de pedidos.
 
 **Resultado esperado:**  
 O pedido recém-efetuado é listado com sucesso, apresentando todas as informações necessárias (itens selecionados, valor total e status do pedido).
@@ -143,7 +143,7 @@ Não se aplica.
 **Passos:**
 
 1. Criar uma nova conta no LocalEats.
-2. Acessar a tela de consulta de pedidos (`/static/orders.html`).
+2. Acessar a tela de consulta de pedidos.
 
 **Resultado esperado:**  
 A tela carrega informando que não existem pedidos cadastrados para a conta.
