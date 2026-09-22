@@ -82,7 +82,7 @@ Verificar se, após o cliente realizar um pedido na plataforma, este é exibido 
 **Integrante:** Luis Matheus  
 **Funcionalidade:** Consultar pedidos  
 **Risco relacionado:** R01 e R02  
-**Técnica escolhida:** Tabela de decisão[cite: 1, 2]
+**Técnica escolhida:** Tabela de decisão
 
 **Por que a técnica foi escolhida:**  
 A Tabela de Decisão foi escolhida porque a exibição da tela depende de decisões combinadas de autenticação e estado da conta: o sistema bloqueia qualquer acesso sem login ativo e, para usuários autenticados, decide entre exibir os detalhes do pedido recém-realizado ou a mensagem de ausência de compras.[cite: 1, 2]
@@ -108,7 +108,7 @@ A Tabela de Decisão foi escolhida porque a exibição da tela depende de decis�
 **Integrante responsável:** Luis Matheus  
 **Funcionalidade:** Consultar pedidos  
 **Risco ou requisito relacionado:** R02  
-**Técnica utilizada:** Tabela de decisão[cite: 1, 2]
+**Técnica utilizada:** Tabela de decisão
 
 **Pré-condição:**  
 Usuário cadastrado, autenticado na aplicação e em processo de finalização de uma compra.
@@ -132,7 +132,7 @@ O pedido recém-efetuado é listado com sucesso, apresentando todas as informaç
 **Integrante responsável:** Luis Matheus  
 **Funcionalidade:** Consultar pedidos  
 **Risco ou requisito relacionado:** R02  
-**Técnica utilizada:** Tabela de decisão[cite: 1, 2]
+**Técnica utilizada:** Tabela de decisão
 
 **Pré-condição:**  
 Usuário recém-cadastrado e autenticado no sistema, sem nenhum pedido efetuado.
@@ -155,7 +155,7 @@ A tela carrega informando que não existem pedidos cadastrados para a conta.
 **Integrante responsável:** Luis Matheus  
 **Funcionalidade:** Consultar pedidos  
 **Risco ou requisito relacionado:** R01  
-**Técnica utilizada:** Tabela de decisão[cite: 1, 2]
+**Técnica utilizada:** Tabela de decisão
 
 **Pré-condição:**  
 Navegador sem sessão iniciada/autenticada no LocalEats.
@@ -194,4 +194,4 @@ Foi usado para validar ideias e como consulta para perguntas e duvidas relaciona
 A sugestão inicial assumia que a tela de pedidos poderia ser aberta por usuários anônimos e exibir dados vazios, sendo corrigida para refletir a obrigatoriedade de login para navegação no site.
 
 **Como as respostas foram verificadas:**  
-Revisão manual comparando os passos dos testes com a documentação do trabalho e o comportamento real da aplicação LocalEats na Vercel.
+Revisão manual comparando os passos dos testes com a documentação do trabalho e o comportamento real da aplicação LocalEats.
